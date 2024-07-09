@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            border: 2px solid #000;
+            width: 500px;
+            margin: 50px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            text-align: center;
+            background-color: #f2f2f2;
+        }
+        input[type="text"], input[type="password"], input[type="date"] {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Registration Form</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label for="firstname">First Name :</label></td>
+                    <td><input type="text" id="firstname" name="firstname" placeholder="Write here" required></td>
+                </tr>
+                <tr>
+                    <td><label for="lastname">Last Name :</label></td>
+                    <td><input type="text" id="lastname" name="lastname" placeholder="Write here" required></td>
+                </tr>
+                <tr>
+                    <td><label for="username">User Name :</label></td>
+                    <td><input type="text" id="username" name="username" placeholder="Write here" required></td>
+                </tr>
+                <tr>
+                    <td><label for="userPassword">Password :</label></td>
+                    <td><input type="password" id="userPassword" name="userPassword" placeholder="Enter your password" required></td>
+                </tr>
+                <tr>
+                    <td><label for="birthday">Birthday :</label></td>
+                    <td><input type="date" id="birthday" name="birthday"></td>
+                </tr>
+                <tr>
+                    <td>Gender :</td>
+                    <td>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
