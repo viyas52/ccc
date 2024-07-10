@@ -1,0 +1,30 @@
+h2{
+    color: blueviolet;
+}
+h1{
+    color: rgba(red, green, 0, 0.5);
+}
+#three{
+    color: yellow;
+}
+.two{
+    color: red;
+}
+h1[name=four]{
+    color: blue;
+}
+h2[name=five]{
+    color: green;
+}
+h3{
+    background-color: beige;
+    color: #234433;
+}
+
+
+
+
+
+
+
+
