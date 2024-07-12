@@ -1,0 +1,47 @@
+.container{
+    background-color:black;
+    color: black;
+    border: #008b8b;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    text-align: center;
+    font-size: large;
+    border-style: ridge;
+    background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Y5NDQtYmItMTYtam9iNTk4LmpwZw.jpg);
+
+}
+
+h1#sub{
+    color: green;
+    background-color: black;
+    text-align: center;
+    font-size: large;
+    border-style: dotted;
+    position: fixed;
+}
+
+body{
+    background-image: url(https://img.freepik.com/free-vector/minimal-background-simple-cream-design-vector_53876-156575.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1720483200&semt=ais_user);
+}
+.header{
+    color: grey;
+    text-align: center;
+    font-size: larger;
+}
+
+.footer{
+    color: grey;
+    text-align: end;
+    font-size: small;
+    
+}
+.ulist{
+    list-style: none;
+    font-size: medium;
+
+}
+.navigable{
+    position: absolute;
+}

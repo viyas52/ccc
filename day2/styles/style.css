@@ -1,0 +1,11 @@
+.header{
+    background-color:gray;
+    top: auto;
+    text-align: center;
+}
+
+.footer{
+    background-color:gray;
+    bottom: auto;
+    /* text-align: center; */
+}
